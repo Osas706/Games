@@ -1,0 +1,52 @@
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 600;
+  background-color: lightblue;
+}
+
+h2{
+  margin: 0;
+}
+
+.grid{
+  width: 306px;
+  height: 306px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor:grab;
+}
+
+.square{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.mole{
+  background-image: url(./img/IMG_1438.JPG);
+  background-position: center;
+  background-size: cover;
+}
+
+.start{
+  border: 2px black solid;
+  font-family: inherit;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border-radius: 18px;
+  padding:6px 15px;
+  cursor: pointer;
+  font-weight: 900;
+  transition: all 0.3s ease;
+}
+
+.start:hover{
+  color: lightblue;
+  background-color: black;
+}

@@ -1,0 +1,88 @@
+body{
+  background-color: rgb(241, 227, 240);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+button{
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: 900;
+  padding: 0.6rem 1.4rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  font-size: 0.9rem;
+}
+
+.grid{
+ 
+  border: 1px solid black;
+  height: 180px;
+  width: 180px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div{
+  height: 20px;
+  width: 20px;
+}
+
+.ending-block{
+  background-color: red;
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+.starting-block{
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+  background-color: blue;
+}
+
+/*
+.log-left, .log-right{
+ background-color: lightblue;
+}
+
+.car-left, .car-right{
+  background-color: lightgray;
+}
+*/
+
+.l1, .l2, .l3{
+  background-color: brown;
+}
+
+.l4, .l5{
+  background-color: lightblue;
+}
+
+.c1{
+  background-color:black;
+  border-radius:7px;
+}
+
+.c2, .c3{
+  background-color: lightgray;
+}
+
+.frog {
+  background-color: green;
+  border-radius: 50%;
+}
